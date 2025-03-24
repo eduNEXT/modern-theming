@@ -1,0 +1,21 @@
+{
+  "name": "bragi-alpha",
+  "version": "1.0.0",
+  "description": "paragon connection",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-tokens": "paragon build-tokens --build-dir  ./lms/static/css/ --source ./lms/tokens/ -t dark -t light",
+    "replace-variables": "paragon replace-variables -p  ./lms/static/sass/partials/lms/theme/  -t dark -t light",
+    "build-files": "mkdir dist && paragon build-scss --corePath ./node_modules/@openedx/paragon/styles/scss/core/core.scss --themesPath ./lms/static/css/themes"
+  },
+  "keywords": [
+    "paragon"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@edx/edx-bootstrap": "^1.0.4",
+    "@openedx/paragon": "^23.4.1"
+  }
+}
