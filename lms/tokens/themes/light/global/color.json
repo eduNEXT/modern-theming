@@ -1,0 +1,14 @@
+{
+  "color": {
+    "primary": {
+      "base": {
+        "source": "$primary",
+        "actions": {
+          "default": "{color.action.default.primary.base}"
+        },
+        "$value": "#FF0000",
+        "$description": "Basic primary color."
+      }
+    }
+  }
+}
