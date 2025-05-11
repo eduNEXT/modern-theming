@@ -6,7 +6,7 @@
         "actions": {
           "default": "{color.action.default.primary.base}"
         },
-        "$value": "#FF0000",
+        "$value": "#6a0dad",
         "$description": "Basic primary color."
       }
     }
