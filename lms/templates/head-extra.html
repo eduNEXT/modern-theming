@@ -11,8 +11,8 @@ from django.utils.translation import get_language_bidi
 % endif
 
 ## Optional overrides
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@edunext/modern-theming-alpha@1.0.0/dist/core.min.css" />
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@edunext/modern-theming-alpha@1.0.0/dist/light.min.css" />
+<link rel="stylesheet" type="text/css" href="${static.url('modern-theming/css/core/index.css')}" />
+<link rel="stylesheet" type="text/css" href="${static.url('modern-theming/css/themes/light/index.css')}" />
 % if style_overrides_file_extra:
   <link rel="stylesheet" type="text/css" href="${static.url(style_overrides_file_extra)}" />
 % endif

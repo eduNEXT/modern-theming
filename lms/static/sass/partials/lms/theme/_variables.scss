@@ -2,6 +2,9 @@
 // Our actual theme
 $primary: var(--pgn-color-primary-base) !default;
 
+// new
+$input-border-radius: var(--pgn-size-form-input-radius-border-base) !default;
+
 
 // Needed so SASS compiles
 @import '_functions_override';
